@@ -109,7 +109,8 @@ Additional methods could be added to the policy record class if necessary.
 In this application, you are expected to read the given files automatically and to create the necessary objects. You should create a policy record that holds all of these created objects and could classify these into categories such as workplace or automobile etc. In this application the only input that is taken from the user is an integer. Please do not ask **any other input**. With the help of policy record, the insured value’s policy charge should be calculated and outputted on the console as in the following: 
 
 ```
-**1 All insured values, 2 Workplaces, 3 Housings, 4 Persons, 5 Automobiles, 6 Trucks. Please enter your choice: 1** 
+**1 All insured values, 2 Workplaces, 3 Housings, 4 Persons, 5 Automobiles, 6 Trucks. 
+Please enter your choice: 1** 
 
 **Insured Value: Truck Insurance Number: T7412 Year of Insurance: 2012** 
 
