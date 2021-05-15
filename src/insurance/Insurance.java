@@ -11,7 +11,7 @@ public class Insurance {
 	}
 
 	public double fixedFee(){
-		return 2500;//(int) (Math.random() *3000) + 1000;
+		return (int) (Math.random() *3000) + 1000;
 	}
 	
 }
