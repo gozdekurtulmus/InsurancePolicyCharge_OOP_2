@@ -16,23 +16,13 @@ public class CalculatorApp {
 	
 	public void start() {
 		
-		printChoices();
+		System.out.println("1 All insured values, 2 Workplaces, 3 Housings, 4 Persons, 5 Automobiles, 6 Trucks. \n");
 		Scanner input = new Scanner(System.in);
 		System.out.print("Please enter your choice: ");
 		int userChoice = input.nextInt();
 		selectOperation(userChoice);
 		input.close();
 		
-	}
-	
-	private void printChoices() {
-		
-		String[] choices = {"1 All insured Values,", " 2 Workplaces,", " 3 Housings,",
-				" 4 Persons," ," 5 Automobiles", " 6 Trucks."};
-		for(String choice : choices) {
-			System.out.print(choice);
-		}
-		System.out.println();
 	}
 	
 	private void selectOperation(int userChoice) {
